@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    button {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    header {
+        display: flex;
+        width: 90%;
+        height:10%;
+        margin: 20px;
+        align-items: center;
+    }
+    .webclass,.nav-links,.cart {display: flex;}
+    .webclass {flex: 1;}
+    h3 {
+        font-size: 30px;
+        font-weight: 300;
+        margin: 5px;
+    }
+    nav {flex: 2;}
+    .nav-links {
+        justify-content: space-around;
+        list-style: none;
+        text-decoration: none;
+        color: gray;
+        font-size: 30px;
+    }
+    .websession{text-decoration: none;}
+    .cart {
+        justify-content: flex-end;
+        flex: 1;
+    }
+    .presentation {
+        display: flex;
+        width: 90%;
+        height: 80vh;
+        margin: 30px;
+        align-items: center;
+        min-height: 60%;
+    }
+    .intro h1 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .intro p {
+        margin-top: 30px;
+        color:purple;
+        font-size: 30px;
+    }
+    .box {
+        padding: 60px;
+        
+    }
+    .inch {
+        border: 3px solid rgb(226, 43, 211);
+        color: rgb(226, 43, 211);
+        background-color: rgb(255, 255, 255);
+        width: 150px;
+        height: 70px;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .shop {
+        color: rgb(255, 255, 255);
+        background-color: rgb(226, 43, 211);
+        border-color: rgb(226, 43, 211);
+        width: 190px;
+        height: 70px;
+        font-size: 28.5px;
+        padding: 20px;
+    }
+    .Matebook {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+    .big {
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        z-index: -1;
+        opacity: 0.5;
+        height: 80%;
+    }
+    .mid {
+        position:absolute;
+        top: 30%;
+        right: 40%;
+        z-index: -1;
+        opacity: 1;
+        height: 80%;
+    }
+    .small {
+        position:absolute;
+        top: 50%;
+        right: 60%;
+        z-index: -1;
+        opacity: 1;
+        height: 80%;
+    }
